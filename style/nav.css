@@ -9,6 +9,7 @@ nav li{
 
 nav li:hover{
     color: aquamarine;
+    background-color: black;
 }
 nav li a{
     text-decoration: none;
