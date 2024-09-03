@@ -1,4 +1,4 @@
-nav ul{
+nav > ul{
     display: flex;
 }
 nav li{
@@ -9,8 +9,22 @@ nav li{
 
 nav li:hover{
     color: aquamarine;
-    background-color: black;
+    background-color:lightgray;
 }
 nav li a{
     text-decoration: none;
+}
+
+/* nested memnu */
+
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    padding-left: 10px;
+    background-color: lightyellow;
+}
+
+nav li:hover > .dropdown{
+    display: block;
 }
